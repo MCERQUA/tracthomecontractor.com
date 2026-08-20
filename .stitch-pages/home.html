@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Tract Home Contractor</title>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&amp;family=Space+Grotesk:wght@300;400;500;600;700&amp;family=Work+Sans:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            DEFAULT: '#C1622D', // Terracotta
+                            rust: '#8F3A20',
+                            amber: '#D9A441',
+                            copper: '#B87333',
+                            sage: '#6B7A4F',
+                            offWhite: '#FAF6F1',
+                            sand: '#F1E9DF',
+                            charcoal: '#2B241E',
+                        }
+                    },
+                    fontFamily: {
+                        headline: ["Space Grotesk", "sans-serif"],
+                        display: ["Space Grotesk", "sans-serif"],
+                        body: ["Work Sans", "sans-serif"],
+                        label: ["Public Sans", "sans-serif"]
+                    },
+                    borderRadius: {
+                        DEFAULT: "0.5rem",
+                        lg: "1rem",
+                        xl: "1.5rem",
+                        full: "9999px"
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings:
+            'FILL' 0,
+            'wght' 400,
+            'GRAD' 0,
+            'opsz' 24;
+        }
+        .text-shadow { text-shadow: 0 2px 4px rgba(0,0,0,0.5); }
+    </style>
+</head>
+<body class="font-body bg-brand-offWhite text-brand-charcoal antialiased">
+<!-- 1. TopNavBar -->
+<nav class="fixed top-0 w-full z-50 bg-[#FAF6F1] dark:bg-[#2B241E] shadow-sm border-b border-[#F1E9DF] dark:border-[#2B241E]">
+<div class="flex justify-between items-center px-6 py-4 max-w-7xl mx-auto">
+<div class="text-xl font-headline font-black text-[#2B241E] dark:text-[#FAF6F1]">
+                Tract Home Contractor
+            </div>
+<div class="hidden md:flex items-center space-x-6">
+<a class="text-[#C1622D] font-bold border-b-2 border-[#C1622D] pb-1" href="#">Services</a>
+<a class="text-[#2B241E] dark:text-[#FAF6F1] font-medium hover:text-[#C1622D] transition-colors duration-200" href="#">About</a>
+<a class="text-[#2B241E] dark:text-[#FAF6F1] font-medium hover:text-[#C1622D] transition-colors duration-200" href="#">Service Areas</a>
+<a class="text-[#2B241E] dark:text-[#FAF6F1] font-medium hover:text-[#C1622D] transition-colors duration-200" href="#">Blog</a>
+<a class="text-[#2B241E] dark:text-[#FAF6F1] font-medium hover:text-[#C1622D] transition-colors duration-200" href="#">Contact</a>
+</div>
+<div class="hidden lg:flex items-center space-x-4">
+<span class="font-bold font-headline text-brand-charcoal">844-967-5247</span>
+<button class="bg-brand text-white px-6 py-2 rounded-DEFAULT font-bold hover:bg-brand-rust transition-colors shadow-sm scale-95 active:scale-90 transition-transform">
+                    Get a Free Quote
+                </button>
+</div>
+<button class="md:hidden text-brand-charcoal">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</nav>
+<main class="pt-20"> <!-- Offset for fixed nav -->
+<!-- 2. HERO -->
+<section class="relative h-[819px] min-h-[600px] flex items-center justify-center overflow-hidden">
+<div class="absolute inset-0 z-0" data-alt="A professional construction crew wearing branded high-visibility gear and hardhats, actively working on a modern home addition for a typical suburban tract home. Bright daytime lighting, clear sky, highly detailed and realistic. The scene emphasizes teamwork, safety, and quality craftsmanship in a residential setting." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDv19btpZ5h4PhRMJZP5IRVRxWwD4Va9aui86yEG8yoQzr7bKuR04_Q1e8HDPPyCPSAMHZRwCsbTkGoem03Ddh07X5qAixhlYR7DrmateJYeQCJ_EB5AyRMssCvFZLmlLUAKkeF3UH7fTHDkNEA54Ysi6wjd62YOczGB6BLCloMGQIM4ix1so8oZFM6_OE4s-KdnOVS88p9iz48oR1pcqlpupocB1hFb5rMTkob3YVYZOUa9MZtbJWSe2-OaB6PTBOST71H_ot3Rjp9')">
+<!-- Scrim -->
+<div class="absolute inset-0 bg-brand-rust/50 mix-blend-multiply"></div>
+</div>
+<div class="relative z-10 max-w-4xl mx-auto px-6 text-center text-white">
+<h1 class="text-5xl md:text-7xl font-headline font-bold leading-tight mb-6 text-shadow">
+                    Expert Renovations for Modern Tract Homes
+                </h1>
+<p class="text-xl md:text-2xl font-body font-medium mb-10 text-brand-offWhite text-shadow max-w-3xl mx-auto">
+                    From ADU conversions to structural repairs, we specialize in the unique needs of master-planned community homes.
+                </p>
+<div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+<a class="w-full sm:w-auto bg-brand-offWhite text-brand-charcoal px-8 py-4 rounded-DEFAULT font-headline font-bold text-lg hover:bg-brand-sand transition-colors shadow-lg flex items-center justify-center gap-2" href="tel:8449675247">
+<span class="material-symbols-outlined">call</span>
+                        Call 844-967-5247
+                    </a>
+<button class="w-full sm:w-auto bg-brand text-white px-8 py-4 rounded-DEFAULT font-headline font-bold text-lg hover:bg-brand-rust transition-colors shadow-lg">
+                        Get a Free Quote
+                    </button>
+</div>
+</div>
+</section>
+<!-- 3. Trust Bar -->
+<div class="bg-brand-offWhite border-b border-brand-sand py-4 shadow-sm relative z-20">
+<div class="max-w-7xl mx-auto px-6 flex flex-wrap justify-center sm:justify-between items-center gap-6 text-brand-charcoal font-medium text-sm md:text-base">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-brand">verified</span>
+                    Licensed &amp; Insured
+                </div>
+<div class="hidden sm:block w-px h-6 bg-brand-sand"></div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-brand">handyman</span>
+                    20+ Years Experience
+                </div>
+<div class="hidden md:block w-px h-6 bg-brand-sand"></div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-brand">star</span>
+                    4.9★ 300+ Reviews
+                </div>
+<div class="hidden lg:block w-px h-6 bg-brand-sand"></div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-brand">location_on</span>
+                    Serving Metro Area
+                </div>
+</div>
+</div>
+<!-- 4. Services Grid -->
+<section class="py-24 bg-brand-sand">
+<div class="max-w-7xl mx-auto px-6">
+<div class="text-center mb-16">
+<h2 class="text-3xl md:text-4xl font-headline font-bold text-brand-charcoal mb-4">Our Specialized Services</h2>
+<p class="text-lg text-brand-charcoal/80 max-w-2xl mx-auto">Tailored solutions for production-built homes.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+<!-- Service Card 1 -->
+<div class="bg-brand-offWhite p-8 rounded-lg shadow-sm hover:shadow-md transition-shadow group border border-transparent hover:border-brand/20">
+<div class="w-14 h-14 bg-brand-sand rounded-full flex items-center justify-center mb-6 group-hover:bg-brand/10 transition-colors">
+<span class="material-symbols-outlined text-3xl text-brand">add_home</span>
+</div>
+<h3 class="text-xl font-headline font-bold mb-3">Home Additions</h3>
+<p class="text-brand-charcoal/70 mb-6 font-body">Seamlessly expand your living space while matching your community's architectural guidelines.</p>
+<a class="text-brand font-bold flex items-center gap-1 group-hover:text-brand-rust transition-colors" href="#">
+                            Learn More <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</a>
+</div>
+<!-- Service Card 2 -->
+<div class="bg-brand-offWhite p-8 rounded-lg shadow-sm hover:shadow-md transition-shadow group border border-transparent hover:border-brand/20">
+<div class="w-14 h-14 bg-brand-sand rounded-full flex items-center justify-center mb-6 group-hover:bg-brand/10 transition-colors">
+<span class="material-symbols-outlined text-3xl text-brand">architecture</span>
+</div>
+<h3 class="text-xl font-headline font-bold mb-3">Full Remodels</h3>
+<p class="text-brand-charcoal/70 mb-6 font-body">Update builder-grade finishes with premium materials for a truly custom feel.</p>
+<a class="text-brand font-bold flex items-center gap-1 group-hover:text-brand-rust transition-colors" href="#">
+                            Learn More <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</a>
+</div>
+<!-- Service Card 3 -->
+<div class="bg-brand-offWhite p-8 rounded-lg shadow-sm hover:shadow-md transition-shadow group border border-transparent hover:border-brand/20">
+<div class="w-14 h-14 bg-brand-sand rounded-full flex items-center justify-center mb-6 group-hover:bg-brand/10 transition-colors">
+<span class="material-symbols-outlined text-3xl text-brand">garage</span>
+</div>
+<h3 class="text-xl font-headline font-bold mb-3">Garage/ADU Conversion</h3>
+<p class="text-brand-charcoal/70 mb-6 font-body">Maximize property value by converting underutilized spaces into livable square footage.</p>
+<a class="text-brand font-bold flex items-center gap-1 group-hover:text-brand-rust transition-colors" href="#">
+                            Learn More <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- 7. Stats -->
+<section class="py-20 bg-brand-rust text-brand-offWhite">
+<div class="max-w-7xl mx-auto px-6">
+<div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center divide-x divide-brand-offWhite/20">
+<div>
+<div class="text-4xl md:text-5xl font-headline font-bold text-brand-amber mb-2">500+</div>
+<div class="font-label font-medium uppercase tracking-wider text-sm opacity-90">Homes Renovated</div>
+</div>
+<div>
+<div class="text-4xl md:text-5xl font-headline font-bold text-brand-amber mb-2">20+</div>
+<div class="font-label font-medium uppercase tracking-wider text-sm opacity-90">Years in Business</div>
+</div>
+<div>
+<div class="text-4xl md:text-5xl font-headline font-bold text-brand-amber mb-2">4.9</div>
+<div class="font-label font-medium uppercase tracking-wider text-sm opacity-90">Average Rating</div>
+</div>
+<div>
+<div class="text-4xl md:text-5xl font-headline font-bold text-brand-amber mb-2">12+</div>
+<div class="font-label font-medium uppercase tracking-wider text-sm opacity-90">Service Areas</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 10. Final CTA -->
+<section class="py-24 bg-gradient-to-br from-brand-rust to-brand relative overflow-hidden">
+<div class="absolute inset-0 opacity-10 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-white to-transparent"></div>
+<div class="max-w-4xl mx-auto px-6 text-center relative z-10">
+<h2 class="text-4xl md:text-5xl font-headline font-bold text-white mb-6">Ready to start your renovation?</h2>
+<p class="text-xl text-brand-offWhite mb-10 max-w-2xl mx-auto">Contact us today to schedule your free consultation and estimate.</p>
+<div class="flex flex-col sm:flex-row items-center justify-center gap-6">
+<button class="w-full sm:w-auto bg-brand-offWhite text-brand-charcoal px-10 py-5 rounded-DEFAULT font-headline font-bold text-lg hover:bg-white transition-colors shadow-xl">
+                        Get a Free Quote
+                    </button>
+<a class="w-full sm:w-auto border-2 border-brand-offWhite text-brand-offWhite px-10 py-5 rounded-DEFAULT font-headline font-bold text-lg hover:bg-brand-offWhite/10 transition-colors flex items-center justify-center gap-2" href="tel:8449675247">
+<span class="material-symbols-outlined">phone</span>
+                        844-967-5247
+                    </a>
+</div>
+</div>
+</section>
+</main>
+<!-- 11. Footer -->
+<footer class="bg-[#2B241E] w-full py-12">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-8 px-6 max-w-7xl mx-auto text-[#FAF6F1]">
+<div class="md:col-span-1">
+<div class="text-2xl font-headline font-black text-[#C1622D] mb-4">
+                    Tract Home Contractor
+                </div>
+<p class="font-body text-sm leading-relaxed opacity-80 mb-6">
+                    Specializing in high-quality renovations and repairs for master-planned community homes.
+                </p>
+</div>
+<div>
+<h4 class="font-headline font-bold mb-4 text-[#D9A441]">Quick Links</h4>
+<ul class="space-y-2">
+<li><a class="text-[#FAF6F1] opacity-80 hover:text-[#C1622D] hover:opacity-100 transition-opacity focus:outline-none focus:ring-2 focus:ring-[#C1622D]" href="#">Services</a></li>
+<li><a class="text-[#FAF6F1] opacity-80 hover:text-[#C1622D] hover:opacity-100 transition-opacity focus:outline-none focus:ring-2 focus:ring-[#C1622D]" href="#">About</a></li>
+<li><a class="text-[#FAF6F1] opacity-80 hover:text-[#C1622D] hover:opacity-100 transition-opacity focus:outline-none focus:ring-2 focus:ring-[#C1622D]" href="#">Service Areas</a></li>
+<li><a class="text-[#FAF6F1] opacity-80 hover:text-[#C1622D] hover:opacity-100 transition-opacity focus:outline-none focus:ring-2 focus:ring-[#C1622D]" href="#">Blog</a></li>
+<li><a class="text-[#FAF6F1] opacity-80 hover:text-[#C1622D] hover:opacity-100 transition-opacity focus:outline-none focus:ring-2 focus:ring-[#C1622D]" href="#">Contact</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-headline font-bold mb-4 text-[#D9A441]">Legal</h4>
+<ul class="space-y-2">
+<li><a class="text-[#FAF6F1] opacity-80 hover:text-[#C1622D] hover:opacity-100 transition-opacity focus:outline-none focus:ring-2 focus:ring-[#C1622D]" href="#">Privacy Policy</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-headline font-bold mb-4 text-[#D9A441]">Contact</h4>
+<div class="font-body text-sm leading-relaxed opacity-80 space-y-2">
+<p>Phone: 844-967-5247</p>
+<p>Lic #123456789</p>
+</div>
+</div>
+</div>
+<div class="px-6 max-w-7xl mx-auto mt-12 pt-8 border-t border-[#FAF6F1]/10 text-center text-[#FAF6F1] opacity-60 font-body text-sm">
+            © 2024 Tract Home Contractor. A Contractors Choice Agency company. Licensed &amp; Insured #123456789.
+        </div>
+</footer>
+</body></html>
