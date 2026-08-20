@@ -7,41 +7,43 @@
  * Light, bright, corporate — home-service sites are light-dominant per site standard.
  */
 
+/* Palette locked to the Stitch design system — ai/research/design-system.md
+ * (projects/17629173161326803576, assets/14776273131002843916) */
 @layer base {
 :root {
   --background: 33 47% 96%;           /* #FAF6F1 warm off-white */
-  --foreground: 29 32% 13%;           /* #2B2016 warm ink */
+  --foreground: 28 18% 14%;           /* #2B241E charcoal-brown */
 
   --card: 0 0% 100%;                  /* #FFFFFF */
-  --card-foreground: 29 32% 13%;
+  --card-foreground: 28 18% 14%;
 
-  --primary: 14 62% 47%;              /* #C1502D terracotta/rust */
+  --primary: 22 62% 47%;              /* #C1622D terracotta */
   --primary-foreground: 0 0% 100%;
 
-  --secondary: 27 58% 41%;            /* #A6632C clay/copper */
+  --secondary: 29 57% 46%;            /* #B87333 copper */
   --secondary-foreground: 0 0% 100%;
 
-  --accent: 37 67% 54%;               /* #D89B3C amber/gold */
-  --accent-foreground: 29 32% 13%;
+  --accent: 39 67% 55%;               /* #D9A441 amber/gold */
+  --accent-foreground: 28 18% 14%;
 
-  --sage: 98 24% 39%;                 /* #5C7A4B natural green — trust/success accent */
+  --sage: 81 21% 39%;                 /* #6B7A4F natural green — trust/success accent */
   --sage-foreground: 0 0% 100%;
 
-  --muted: 30 40% 90%;                /* #F0E6DC */
-  --muted-foreground: 26 13% 37%;     /* #6B5D52 */
+  --muted: 33 39% 91%;                /* #F1E9DF warm sand */
+  --muted-foreground: 28 14% 37%;
 
   --destructive: 0 74% 42%;
   --destructive-foreground: 0 0% 100%;
 
-  --border: 31 37% 84%;               /* #E5D6C6 */
-  --input: 31 37% 84%;
-  --ring: 14 62% 47%;
+  --border: 30 35% 84%;
+  --input: 30 35% 84%;
+  --ring: 22 62% 47%;
 
   /* Inverted contrast band — dark punctuation band on this light-dominant site */
-  --ink: 20 40% 16%;                  /* #3A2419 deep warm brown */
-  --ink-foreground: 33 40% 92%;
+  --ink: 14 63% 34%;                  /* #8F3A20 rust dark-band */
+  --ink-foreground: 33 40% 95%;
 
-  --radius: 0.5rem;
+  --radius: 0.75rem;                  /* ROUND_TWELVE per Stitch design system */
 }
 
 * {
@@ -54,7 +56,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(--font-heading), system-ui, serif;
+  font-family: var(--font-heading), system-ui, sans-serif;
 }
 } /* close @layer base */
 

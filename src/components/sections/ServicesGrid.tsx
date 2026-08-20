@@ -7,12 +7,12 @@ import { services } from "@/lib/site";
 
 const serviceImages: Record<string, string> = {
   "home-additions": "/images/service-additions.jpg",
-  "kitchen-bath-remodeling": "/images/service-kitchen-bath.jpg",
+  "kitchen-remodeling": "/images/service-kitchen-bath.jpg",
+  "bathroom-remodeling": "/images/service-kitchen-bath.jpg",
   "garage-conversions-adu": "/images/service-garage-adu.jpg",
-  "foundation-settling-repair": "/images/service-foundation-repair.jpg",
+  "foundation-repair": "/images/service-foundation-repair.jpg",
+  "structural-repair": "/images/service-exterior-upgrade.jpg",
   "whole-home-renovation": "/images/hero-team-jobsite.jpg",
-  "exterior-curb-appeal": "/images/service-exterior-upgrade.jpg",
-  "post-warranty-repair": "/images/service-foundation-repair.jpg",
 };
 
 export function ServicesGrid() {

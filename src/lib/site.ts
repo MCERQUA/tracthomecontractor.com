@@ -31,10 +31,16 @@ export const services: Service[] = [
     summary: "Bump-outs, second stories, and new rooms built onto your existing tract-home footprint.",
   },
   {
-    slug: "kitchen-bath-remodeling",
-    name: "Kitchen & Bath Remodeling",
-    shortName: "Kitchen & Bath",
-    summary: "Full gut remodels and layout upgrades for builder-grade kitchens and bathrooms.",
+    slug: "kitchen-remodeling",
+    name: "Kitchen Remodeling",
+    shortName: "Kitchen Remodeling",
+    summary: "Full gut remodels and layout upgrades for builder-grade production-home kitchens.",
+  },
+  {
+    slug: "bathroom-remodeling",
+    name: "Bathroom Remodeling",
+    shortName: "Bathroom Remodeling",
+    summary: "Primary and secondary bath remodels that upgrade builder-grade fixtures and finishes.",
   },
   {
     slug: "garage-conversions-adu",
@@ -43,27 +49,21 @@ export const services: Service[] = [
     summary: "Turn an unused garage into living space or add a detached ADU on your lot.",
   },
   {
-    slug: "foundation-settling-repair",
-    name: "Foundation & Settling Repair",
+    slug: "foundation-repair",
+    name: "Foundation & Slab Repair",
     shortName: "Foundation Repair",
-    summary: "Slab cracks, drywall stress cracks, and settling repair common in production-built homes.",
+    summary: "Slab cracks and settling repair common in production-built homes once the warranty lapses.",
+  },
+  {
+    slug: "structural-repair",
+    name: "Structural, Stucco & Drywall Repair",
+    shortName: "Structural Repair",
+    summary: "Stress cracks, stucco damage, and structural repair work builders won't touch post-warranty.",
   },
   {
     slug: "whole-home-renovation",
-    name: "Whole-Home Renovation",
+    name: "Whole-Home Renovations & Floor Plan Remodeling",
     shortName: "Whole-Home Renovation",
     summary: "Floor plan modifications and open-concept conversions for repeated-floor-plan homes.",
-  },
-  {
-    slug: "exterior-curb-appeal",
-    name: "Exterior & Curb Appeal Upgrades",
-    shortName: "Exterior Upgrades",
-    summary: "Stucco, siding, paint, and hardscape work that sets your home apart from the subdivision.",
-  },
-  {
-    slug: "post-warranty-repair",
-    name: "Post-Warranty Repair",
-    shortName: "Post-Warranty Repair",
-    summary: "Independent repair work once your builder's structural warranty has expired.",
   },
 ];
