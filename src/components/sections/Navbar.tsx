@@ -46,7 +46,7 @@ const DEFAULT_NAV_ITEMS: NavItem[] = [
   { label: "Contact", href: "/contact" },
 ];
 
-const DEFAULT_CTA: NavCTA = { label: "Get a Quote", href: "/contact" };
+const DEFAULT_CTA: NavCTA = { label: "Get a Quote", href: "/quote" };
 
 export function Navbar(props: NavbarProps) {
   const [isScrolled, setIsScrolled] = useState(false);
