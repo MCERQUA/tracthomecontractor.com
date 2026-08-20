@@ -1,0 +1,71 @@
+{
+  "source": "DataForSEO Labs keyword_ideas + Google Ads search_volume, live 2026-08-20, direct API (proxy at 172.25.0.1:6350 unreachable from this container, called api.dataforseo.com directly with env creds)",
+  "niche_note": "Tract-home specialization is a POSITIONING/trust angle in copy, not a keyword strategy — 'tract home renovation', 'production home remodel', 'post warranty home repair' all returned ~0 measurable search_volume. Real demand sits on the underlying SERVICE terms below; niche differentiation lives in headlines/trust copy, not H1 keyword targeting.",
+  "primary": [
+    {"keyword": "bathroom remodel contractor", "search_volume": 90500, "cpc": 28.13},
+    {"keyword": "kitchen remodel contractor", "search_volume": 49500, "cpc": 16.31},
+    {"keyword": "home addition contractor", "search_volume": 27100, "cpc": 10.35},
+    {"keyword": "foundation repair contractor", "search_volume": 27100, "cpc": 21.00},
+    {"keyword": "general contractor near me", "search_volume": 74000, "cpc": 10.07}
+  ],
+  "secondary": [
+    {"keyword": "kitchen renovation cost", "search_volume": 22200, "cpc": 10.06},
+    {"keyword": "garage conversion contractor", "search_volume": 14800, "cpc": 4.03},
+    {"keyword": "home remodeling contractor near me", "search_volume": 14800, "cpc": 10.35},
+    {"keyword": "ADU builder", "search_volume": 9900, "cpc": 17.78},
+    {"keyword": "licensed general contractor", "search_volume": 9900, "cpc": 8.86},
+    {"keyword": "bathroom addition cost", "search_volume": 8100, "cpc": 18.13},
+    {"keyword": "home renovation company", "search_volume": 6600, "cpc": 16.44},
+    {"keyword": "room addition contractor", "search_volume": 5400, "cpc": 11.27},
+    {"keyword": "home addition contractors near me", "search_volume": 4400, "cpc": 13.29},
+    {"keyword": "basement finishing contractors", "search_volume": 27100, "cpc": 18.44},
+    {"keyword": "drywall contractors", "search_volume": 27100, "cpc": 12.78},
+    {"keyword": "exterior painting contractor", "search_volume": 18100, "cpc": 8.52},
+    {"keyword": "stucco contractors", "search_volume": 5400, "cpc": 7.88}
+  ],
+  "longtail": [
+    {"keyword": "drywall crack repair", "search_volume": 2400, "cpc": 3.81},
+    {"keyword": "stucco repair contractor", "search_volume": 1900, "cpc": 7.50},
+    {"keyword": "room addition cost", "search_volume": 1600, "cpc": 8.61},
+    {"keyword": "exterior renovation contractor", "search_volume": 1300, "cpc": 5.18},
+    {"keyword": "home addition cost per square foot", "search_volume": 1000, "cpc": 9.83},
+    {"keyword": "slab foundation repair", "search_volume": 880, "cpc": 43.06},
+    {"keyword": "foundation settling repair", "search_volume": 720, "cpc": 16.32},
+    {"keyword": "structural repair contractor", "search_volume": 590, "cpc": 54.08},
+    {"keyword": "whole home renovation contractor", "search_volume": 320, "cpc": 1.84},
+    {"keyword": "convert garage into bedroom", "search_volume": 260, "cpc": 9.75},
+    {"keyword": "garage to living space conversion", "search_volume": 140, "cpc": 9.44},
+    {"keyword": "open concept remodel", "search_volume": 50, "cpc": 0},
+    {"keyword": "tract home renovation", "search_volume": null, "cpc": null, "note": "near-zero measured volume; used as positioning language, not SEO target"},
+    {"keyword": "post warranty home repair", "search_volume": null, "cpc": null, "note": "near-zero measured volume; used as positioning language, not SEO target"}
+  ],
+  "location": [
+    {"note": "CCA is licensed multi-state, not single-city — site targets national/broad coverage; no city-specific pages built this round. Location keywords deferred to a future local-SEO pass once service areas are confirmed by the client."}
+  ],
+  "people_also_ask": [
+    "What is a realistic budget for a kitchen remodel?",
+    "Is $10,000 enough for a kitchen remodel?",
+    "Is $30,000 enough for a kitchen remodel?",
+    "What is the 30% rule in remodeling?",
+    "In what order should a remodel be done?",
+    "Is foundation repair worth the cost?",
+    "Does homeowners insurance cover foundation repair?",
+    "Can you live in a house while the foundation is being repaired?",
+    "What is the best time of year for foundation repair?",
+    "How much is a foundation for a 2000 square foot house?",
+    "Is $100,000 enough to renovate a house?",
+    "What not to tell your contractor?",
+    "What is the best time of year to remodel?",
+    "How much does it cost to rip out and replace a bathroom?",
+    "Is it cheaper to convert a garage or to build an addition?",
+    "What is the cheapest way to do a garage conversion?",
+    "What is the average cost of a garage conversion?",
+    "Do I need permission to convert garage to bedroom?",
+    "Is it legal to have a bathroom in the garage?",
+    "Is it cheaper to build a house or add an addition?",
+    "How much does a 1000 sq ft house addition cost?",
+    "What is the average cost per square foot for a 20x20 home addition?",
+    "What is the most expensive part of an addition to a house?",
+    "What is the cheapest way to add an addition to a house?"
+  ]
+}
